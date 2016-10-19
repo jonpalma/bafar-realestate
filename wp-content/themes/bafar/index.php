@@ -215,9 +215,9 @@
             <div class="container text-center">
                 <h1 class="white header"><?php echo CFS() -> get('contact_title'); ?></h1>
                 <p class="text white">
-                    Guillermo Medrano<br>
-                    Mobile: (614)511.5093<br>
-                    Email: <a href="mailto:gmedrano@bafar.com.mx">gmedrano@bafar.com.mx</a>
+                    <?php echo CFS() -> get('contact_name'); ?><br>
+                    Mobile: <?php echo CFS() -> get('contact_phone'); ?><br>
+                    Email: <a href="mailto:<?php echo CFS() -> get('contact_email'); ?>"><?php echo CFS() -> get('contact_email'); ?></a>
                 </p>
                 <div class="row no-margin">
                     <?php echo do_shortcode('[contact-form-7 id="88" title="Contact form"]'); ?>
