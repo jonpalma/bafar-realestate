@@ -213,12 +213,24 @@
     <div class="contact" id="contact">
         <div class="contact-form">
             <div class="container text-center">
-                <h1 class="white header"><?php echo CFS() -> get('contact_title'); ?></h1>
-                <p class="text white">
-                    <?php echo CFS() -> get('contact_name'); ?><br>
-                    Teléfono: <?php echo CFS() -> get('contact_phone'); ?><br>
-                    Email: <a href="mailto:<?php echo CFS() -> get('contact_email'); ?>"><?php echo CFS() -> get('contact_email'); ?></a>
-                </p>
+                <div>
+                    <h1 class="white header"><?php echo CFS() -> get('contact_title'); ?></h1>
+                </div>
+                <div class="col-sm-6">
+                    <p class="text white">
+                        Guillermo Medrano<br>
+                        Teléfono: (614)511.5093<br>
+                        Email: <a href="mailto:gmedrano@bafar.com.mx">gmedrano@bafar.com.mx</a>
+                    </p>
+                </div>
+                <div class="col-sm-6">
+                    <p class="text white">
+                        <?php echo CFS() -> get('contact_name'); ?><br>
+                        <?php echo CFS() -> get('contact_area'); ?><br>
+                        Teléfono: <?php echo CFS() -> get('contact_phone'); ?><br>
+                        Email: <a href="mailto:<?php echo CFS() -> get('contact_email'); ?>"><?php echo CFS() -> get('contact_email'); ?></a>
+                    </p>
+                </div>
                 <div class="row no-margin">
                     <?php echo do_shortcode('[contact-form-7 id="88" title="Contact form"]'); ?>
                 </div>
