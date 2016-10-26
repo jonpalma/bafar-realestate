@@ -219,7 +219,7 @@
                 <div class="col-sm-6">
                     <p class="text white">
                         Guillermo Medrano<br>
-                        Teléfono: (614)511.5093<br>
+                        Teléfono: +52 (614) 511.5093<br>
                         Email: <a href="mailto:gmedrano@bafar.com.mx">gmedrano@bafar.com.mx</a>
                     </p>
                 </div>
